@@ -1,0 +1,30 @@
+body{background: #f9f9f8;}
+.top{height: 110px;}
+.top .top-l{background: url(../img/register/logo.png) no-repeat left;width: 160px;height: 54px;float: left;margin-top: 28px;}
+.top h1{display: block;width: 164px;height: 46px;font-size: 24px;color: #000;float: left;line-height: 46px;
+border-left: 1px #ddd solid;text-align: center;margin-top: 33px;font-weight: 100;}
+
+
+.box{width: 954px;border: 1px #ddd solid;box-sizing: border-box;}
+.box1{border-bottom: 1px #ddd solid;height: 51px;line-height: 50px;padding:0 20px 0 20px;box-sizing: border-box;}
+.box1 span{color: #ff002a;font-size: 16px;margin-right: 610px;}
+.box1 b{margin-right:10px;}
+.box1 a{color: #0088cc;}
+
+
+.box2{height: 584px; box-sizing: border-box;padding-left: 227px;padding-top: 49px;}
+.bbox{width: 455px;height: 58px;padding: 11px 0;box-sizing: border-box;}
+.bbox .bbox-l{height: 36px;width: 106px;float: left;margin-right: 10px;}
+.bbox .bbox-l span{float: right;font: 14px/36px "";}
+.bbox .bbox-l span i{color:#ff002a ;}
+.bbox input{float: left;border:none; border: 1px #ccc solid;height: 36px;width: 300px;
+box-sizing: border-box;border-radius: 4px;font-size: 12px;box-sizing: border-box;color: #a9a9a9;padding-left: 30px;}
+
+.check{width: 302px;margin-left: 116px; line-height: 34px;}
+.check input{border: none;margin-top: 2px;}
+.check span{margin-left: 23px;}
+
+
+#submit{height: 36px;width: 300px;background: #e6133c;margin-left: 116px;border-radius: 4px; color: #fff;text-align: center;font: 16px/36px "";}
+
+.bg{width: 954px;height: 24px;background:url(../img/register/bg1.png) no-repeat center bottom;}

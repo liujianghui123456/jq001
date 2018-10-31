@@ -1,0 +1,32 @@
+
+
+/*导航栏效果*/
+
+.nav .nav-l:hover .nav-bot-list{display: block;}
+
+/*导航左边一级菜单*/
+.nav-bot-list{display:none;width:190px;height: 430px;background: #444442;position: absolute;-webkit-box-shadow: -2px 0 2px rgba(0,0,0,.2);z-index: 50;}
+
+
+
+
+/*猜你喜欢版块*/
+.like{margin-bottom: 20px;}
+.like-t{height:43px;width: 1190px;margin-bottom: 30px;}
+#like-b{display: flex;width: 1190px;justify-content: space-between;flex-wrap: wrap;}
+.like-b-box{width:230px ;height: 390px;border: 1px #e4e4e4 solid;box-sizing: border-box;margin-bottom: 10px;}
+.like-b-box dt{height: 234px;}
+.like-b-box dd {padding:0 13px 0 13px ;box-sizing: border-box;}
+.like-b-box dd p{width:194px;font-size: 14px;color: #666;margin-bottom: 26px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.like-b-box span{color: #e6133c;font-size: 16px;}
+.like-b-box em{display:block;width:202px ;height: 36px;border: 1px #e6133c solid;border-radius: 4px;box-sizing: border-box;
+color: #e6133c;font:16px/36px ""; text-align: center;}
+
+
+
+/*分页*/
+.tcdPageCode{padding: 15px 20px;text-align: left;color: #ccc;text-align:center;width: 1000px;height: 200px;margin: 0 auto;}
+.tcdPageCode a{display: inline-block;color: #e6133c;display: inline-block;height: 25px;	line-height: 25px;	padding: 0 10px;border: 1px solid #ddd;	margin: 0 2px;border-radius: 4px;vertical-align: middle;}
+.tcdPageCode a:hover{text-decoration: none;border: 1px solid #e6133c;}
+.tcdPageCode span.current{display: inline-block;height: 25px;line-height: 25px;padding: 0 10px;margin: 0 2px;color: #fff;background-color: #e6133c;	border: 1px solid #e6133c;border-radius: 4px;vertical-align: middle;}
+.tcdPageCode span.disabled{	display: inline-block;height: 25px;line-height: 25px;padding: 0 10px;margin: 0 2px;	color: #bfbfbf;background: #f2f2f2;border: 1px solid #bfbfbf;border-radius: 4px;vertical-align: middle;}

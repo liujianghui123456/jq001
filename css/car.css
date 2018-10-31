@@ -1,0 +1,103 @@
+/*顶部工具栏 左边*/
+/*.afs{width: 82px;height: 30px;background: #002752;}*/
+.tools{height: 30px;background:#f7f7f7 ; border-bottom: 1px #e9e9e9 solid; box-sizing: border-box; line-height: 32px;}
+.tools .tools-left{width: 440px;height: 30px; float: left;}
+.tools .bl-name{background: url(../img/logo1.jpg) no-repeat center left; float:left; padding-left: 16px;}
+.tools .tiao{float:left;background: url(../img/l1.jpg) no-repeat right; height: 32px;width: 12px;}
+.tools .tools-left-xia{float:left; width:248px ; }
+.tools .tools-left-xia >a{display: block;padding-left: 20px; width: 50px;float: left;}
+.tools .tools-left-xia >li{width: 82px;height: 29px; text-align: center; background: url(../img/xia.jpg) no-repeat 70px center ;
+float: left;border-left: 1px #f7f7f7 solid;border-right: 1px #f7f7f7 solid;box-sizing: border-box;}
+.tools .tools-left-xia li ul{width: 248px;height: 60px; border: 1px #e2e2e2 solid;border-top:none; background: #fff;padding: 2px;  /*box-shadow:
+0 0 2px #CCC;*/ display:none;position: absolute;box-sizing: border-box;margin-left: -1px; margin-top: -2px; }
+.tools .tools-left-xia li ul li{float:left;height: 24px;}
+.tools .tools-left-xia li ul li:nth-child(1){ margin-left: 29px; margin-right: 34px;} 
+.tools .tools-left-xia li ul li:nth-child(2){  margin-right: 58px;} 
+.tools .tools-left-xia li ul li:nth-child(3){ margin-left: 29px; margin-right: 62px;}
+
+/*顶部工具栏 左边 鼠标划过效果*/
+.tools .tools-left-xia>li:hover{width: 82px;height: 30px;/*height: 31px;margin-top:-1px;*/ text-align: center; background: url(../img/shang.jpg) no-repeat 70px center ;
+background-color: #fff;color: #ff6f6f;border-left: 1px #e2e2e2 solid;border-right: 1px #e2e2e2 solid;box-sizing: border-box;}
+.tools .tools-left-xia li:hover ul{display: block;}
+.tools .tools-left-xia a:hover{color: #ff6f6f;}
+
+
+/*顶部工具栏 右边*/
+.tools-right{width:580px ;float:right; display: flex;}
+.tools-right >li{ width: 80px;height: 29px; background: url(../img/l1.jpg) no-repeat left; padding-left:10px ;
+border-left: 1px #f7f7f7 solid;border-right: 1px #f7f7f7 solid;box-sizing: border-box;}
+.tools-right >li:nth-child(7){width: 70px; text-align: center;padding-left:0}
+.tools-right >li:nth-child(1){width: 110px;background:none;}
+.tools-right >li:nth-child(1) .login-button{ margin-right: 18px;}
+.tools-right >li:nth-child(2){text-align: center;padding-left:0}
+.tools-right >li b{display: block;background:url(../img/xia.jpg) no-repeat 54px center;}
+.tools-right >li b a{color: #444;}
+/*顶部工具栏 右边 二级菜单*/
+.tools-right >li ul{border: 1px #e2e2e2 solid;border-top:none; background: #fff;position: absolute;
+background: #fff;box-sizing: border-box;margin-top:-2px;display: none;z-index: 100;}
+.tools-right >li:nth-child(3) ul{width: 80px;height:120px;margin-left: -11px;padding-left:10px ;}
+.tools-right >li:nth-child(3) ul li{height:22px;}
+
+.tools-right >li:nth-child(4) ul{width: 690px;height:156px;margin-left:-390px; padding-left: 16px; 
+padding-top: 12px;display: none;}
+.tools-right >li:nth-child(4) ul li{float: left; height:128px;width: 110px; padding-left:14px ; box-sizing: border-box;
+border-right: 1px #e9e9e9  dashed;}
+.tools-right >li:nth-child(4) ul li h3{color: #333;height: 28px; line-height: 28px;}
+.tools-right >li:nth-child(4) ul li a{ display:block;width: 112px; height: 24px;}
+
+.tools-right >li:nth-child(5) ul{width: 80px;height:50px;margin-left: -11px;padding-left:10px ;}
+.tools-right >li:nth-child(5) ul li{height:22px;}
+.tools-right >li:nth-child(6) ul{width: 310px;height:176px;margin-left: -183px;padding-top: 18px;
+box-sizing: border-box; }
+.tools-right >li:nth-child(6) ul li{text-align: center;line-height: 22px;float: left; margin: 0 26px;}
+.tools-right >li:nth-child(6) ul li span.palm-item-message{color: #ff7070;}
+
+/*顶部工具栏 右边鼠标划过效果*/
+.tools-right>li:hover{height:30px;background-image:none;background-color: #fff;border-left: 1px #e2e2e2 solid;border-right: 1px #e2e2e2 solid;
+}
+.tools-right li a:hover{color: #ff7070;}
+.tools-right>li:nth-child(1):hover,.tools-right>li:nth-child(7):hover,.tools-right>li:nth-child(2):hover{height: 29px;}
+.tools-right>li:hover b{display: block;background:url(../img/shang.jpg) no-repeat 54px center;}
+/*顶部工具栏 右边鼠标划过 二级菜单*/
+.tools-right >li:nth-child(3):hover ul,.tools-right >li:nth-child(4):hover ul,.tools-right >li:nth-child(5):hover ul,
+.tools-right >li:nth-child(6):hover ul{display: block;}
+
+.top{height: 110px;}
+.top .top-l{background: url(../img/login/logo.png) no-repeat left;width: 160px;height: 54px;float: left;margin-top: 28px;}
+.top h1{display: block;width: 164px;height: 46px;font-size: 24px;color: #666;float: left;line-height: 46px;
+border-left: 1px #ddd solid;text-align: center;margin-top: 33px;font-weight: 100;}
+
+
+
+
+.car{margin: 0 auto;width: 990px;color: #666;}
+.car h5{height: 50px;line-height: 50px;font-size: 16px;}
+	.car table{width: 990px;border-collapse: collapse;text-align: center;font-size: 12px;}
+	.car table a{color: #666;}
+	.car table a:hover{color: #e6133c;}
+	.car table a span{color: #999;}
+	.car table tr{border: 1px solid #999;}
+	.car table th{line-height: 30px;background: #fafafa;}
+	.car table td{padding: 15px;}
+	.car table td:nth-child(2){text-align: left;}
+	.car table td dt{float: left;margin-right: 25px;}
+	.car table td dt img{width: 50px;height: 50px;}
+	.car table td input{float: left;width: 16px;text-align: center;}
+	.car table td input[type=text]{width: 40%;background: #fafafa;margin: 0 2px;border: 1px solid #666;}
+	.car table td input[type=button]{color: #fff;border: none;height: 16px;}
+	.car table td input[type=button]:hover{background: #e6133c;}
+.car .group{padding-left: 15px;line-height: 52px;float: left;}
+	.car .group a{color: #666;}
+.car .sum{line-height: 52px;float: right;width: 600px;display: flex;justify-content: flex-end;}
+	.sl{color: rgb(200,3,3);}
+	.zj{color: rgb(200,3,3);font-size: 20px;font-weight: bold;}
+.car .sum {overflow: hidden;}
+.car .sum p{line-height: 52px;width: 120px;}
+.car .sum p:nth-child(1){margin-right: 100px;}
+.car .sum a{color: #666;}
+.car .sum  a:hover{color: #f00;text-decoration: underline;}
+.car .sum input{background: #e6133c;color: #fff;width: 120px;height:52px;border: none;outline: none;box-shadow:
+0 0 2px #CCC;}
+
+.box{height: 52px;background: #f3f3f3;margin: 30px 0;box-shadow:
+0 0 2px #CCC;}

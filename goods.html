@@ -1,0 +1,484 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/goods.css"/>
+		<script src="js/libs/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/libs/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+<!--		<script src="js/libs/public.js" type="text/javascript" charset="utf-8"></script>-->
+	</head>
+	<body>
+		<div class="tools"><!--顶部栏-->
+			<div class="layout">
+				<div class="tools-left"><!--顶部栏左边-->
+					<div class="bl-name" title="百联集团旗下全渠道电商平台"><div class="txt">百联集团旗下全渠道电商平台</div><b></b></div>
+					<div class="tiao"></div>
+					<ul class="tools-left-xia">
+			            <li>
+			            	<a href="#">网站导航</a>
+			                <ul>
+			                	<li><a target="_blank" href="http://www.bailiangroup.cn/">百联集团官网</a></li>
+			                    <li><a target="_blank" href="http://www.safepass.cn/">安付宝网</a></li>
+			                    <li><a target="_blank" href="http://www.dyyy.com.cn/">第一医药</a></li>
+			                    <li><a target="_blank" href="https://www.okcard.com/clogin">OK会员卡专区</a></li>
+			                </ul>
+			            </li>
+			            <a href="#">消息</a>
+			        </ul>
+				</div>
+		        <ul class="tools-right"><!--顶部栏右边-->
+		        		<li>
+		        			<a href="#" class="login-button"><span>请登录</span></a>
+	                		<a id="headerReg" href="#" class="registered">注册</a>
+		        		</li>
+		        		<li>
+		        			<a target="_blank" href="https://my.bl.com/ym/orderList.html">我的订单</a>
+		        		</li>
+		        		<li>
+		        			<b><a target="_blank" href="https://my.bl.com">我的百联</a></b>
+		        			<ul>
+	                            <li><a target="_blank" href="https://my.bl.com/ym/orderList.html">我的订单</a></li>
+	                            <li><a target="_blank" href="https://my.bl.com/ym/commentList.html">我的评价</a></li>
+	                            <li><a target="_blank" href="https://my.bl.com/ym/nl/memberPointList.html">我的积分</a></li>
+	                            <li><a target="_blank" href="https://my.bl.com/favorite/myFavorite.html">我的收藏</a></li>
+	                            <li><a target="_blank" href="https://my.bl.com/center/series/myCoupon.html">我的优惠券</a></li>
+		        			</ul>
+		        		</li>
+		        		<li>
+		        			<b><a target="_blank" href="http://jiaofei.bl.com">充值缴费</a></b>
+		        			<ul>
+		        				<li>
+		        					<h3>影娱生活</h3>
+		        					<a target="_blank" href="http://chongzhi.bl.com/migu/home.html">咪咕电影卡</a>
+		        				</li>
+		        				<li>
+		        					<h3>水电煤缴费</h3>
+		        					<a target="_blank"  href="http://jiaofei.bl.com">缴费首页</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=sf">水费缴费</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=dl">电费缴费</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=mq">燃气缴费</a>
+		        				</li>
+		        				<li>
+		        					<h3>手机充值</h3>
+		        					<a target="_blank"  href="http://jiaofei.bl.com">缴费首页</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=sf">水费缴费</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=dl">电费缴费</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=mq">燃气缴费</a>
+		        				</li>
+		        				<li>
+		        					<h3>其他缴费</h3>
+		        					<a target="_blank"  href="http://jiaofei.bl.com">缴费首页</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=sf">水费缴费</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=dl">电费缴费</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=mq">燃气缴费</a>
+		        				</li>
+		        				<li>
+		        					<h3>游戏点卡</h3>
+		        					<a target="_blank"  href="http://jiaofei.bl.com">缴费首页</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=sf">水费缴费</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=dl">电费缴费</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=mq">燃气缴费</a>
+		        				</li>
+		        				<li>
+		        					<h3>其他险种</h3>
+		        					<a target="_blank"  href="http://jiaofei.bl.com">缴费首页</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=sf">水费缴费</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=dl">电费缴费</a>
+                                    <a target="_blank"  href="http://jiaofei.bl.com/syf/pubfeepage.html?type=mq">燃气缴费</a>
+		        				</li>
+		        			</ul>
+		        		</li>	
+		        		<li>
+		        			<b><a href="#">客户服务</a></b>
+		        			<ul>
+	                            <li><a  href="#" >在线客服</a></li>
+	                            <li><a target="_blank" href="http://help.bl.com/helpCentersv7.html">帮助中心</a></li>
+                   			</ul>
+		        		</li>
+		        		<li>
+		        			<b><a href="#">掌上百联</a></b>
+	        				<ul >
+                            	<li>
+                                    <span><img src="//img23.iblimg.com/market-2/images/activity/1807592795.jpg" width="100" height="100"></span>
+                                    <div><span class="palm-item-title">i百联微信</span></div>
+                                    <div><span class="palm-item-message">扫一扫关注</span></div>
+                                </li>
+                                <li>
+                                    <span><img src="//img22.iblimg.com/market-2/images/activity/1849148942.png" width="100" height="100"></span>
+                                    <div><span class="palm-item-title">i百联APP</span></div>
+                                    <div><span class="palm-item-message">手机购物更方便</span></div>
+                                </li>
+                    		</ul>
+		        		</li>
+		        		<li>
+		        			<a href="#">购物车</a>
+		        		</li>
+		        </ul>
+			</div>
+		</div>
+		<div class="head layout"><!--头部搜索-->
+			<div class="head-l">
+				<a><img src="img/logo2.jpg"/></a>
+				<a><img src="img/pg.jpg"/></a>
+			</div>
+			<div class="head-z">
+				<div class="head-z-s">
+					<input type="text" name="txt" id="txt" value="" />
+					<div id="btn">搜索</div>
+				</div>
+				<ul class="head-z-x">
+					<li><a href="#">美心月饼</a></li>
+					<li><a href="#">酸奶</a></li>
+					<li><a href="#">手机</a></li>
+					<li><a href="#">洗衣液</a></li>
+					<li><a href="#">华为</a></li>
+					<li><a href="#">空调</a></li>
+					<li><a href="#">雅诗兰黛</a></li>
+					<li><a href="#">洗发水</a></li>
+					<li><a href="#">啤酒</a></li>
+					<li><a href="#">耐克</a></li>
+				</ul>
+			</div>
+			<div class="head-r">
+				<a href="https://www.okcard.com/?bl_mmc=YXTF_-_baiduPC_-_6xk1078b_-_0">安付宝OK卡专区</a>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="layout">
+				<div class="nav-l">
+					<a href="#">所有商品分类</a>
+					<ul class="nav-bot-list">
+						<li id="navbot1">
+							<div>
+								<a href="#">百联进口 全球购</a>
+							</div>
+							<div id="navbot1-list">	
+								<!--<ul id="navbot-list-ybox">
+									<li class="te">
+										<h4 class="te"><a href="#">美妆护肤</a></h4>
+										<ul class="te">
+											<li><a href="#">面膜</a></li>
+											<li><a href="#">乳液面霜</a></li>
+											<li><a href="#">化妆水</a></li>
+											<li><a href="#">护肤套装</a></li>
+											<li><a href="#">眼部护理</a></li>
+											<li><a href="#">面部精华</a></li>
+											<li><a href="#">美容仪</a></li>
+											<li><a href="#">洁面</a></li>
+											<li><a href="#">卸妆</a></li>
+											<li><a href="#">彩妆</a></li>
+											<li><a href="#">香水</a></li>
+											<li><a href="#">男士护肤</a></li>
+											<li><a href="#">口红</a></li>
+											<li><a href="#">美妆工具</a></li>
+										</ul>
+									</li>
+									<li>
+										<h4><a href="#">个人护理</a></h4>
+										<ul>
+											<li><a href="#">洗发水</a></li>
+											<li><a href="#">护发素</a></li>
+											<li><a href="#">沐浴乳</a></li>
+											<li><a href="#">苏口水</a></li>
+											<li><a href="#">牙膏</a></li>
+											<li><a href="#">身体乳</a></li>
+											<li><a href="#">护手霜</a></li>
+											<li><a href="#">身体护理</a></li>
+											<li><a href="#">卫生巾</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<h4><a href="#">进口美食</a></h4>
+										<ul>
+											<li><a href="#">坚果</a></li>
+											<li><a href="#">果干</a></li>
+											<li><a href="#">膨化</a></li>
+											<li><a href="#">糖果</a></li>
+											<li><a href="#">海苔</a></li>
+											<li><a href="#">饼干</a></li>
+											<li><a href="#">曲奇</a></li>
+											<li><a href="#">威化</a></li>
+											<li><a href="#">橄榄油</a></li>
+											<li><a href="#">泡面</a></li>
+											<li><a href="#">蜂蜜</a></li>
+										</ul>
+									</li>
+									<li>
+										<h4><a href="#">乳品冲饮</a></h4>
+										<ul>
+											<li><a href="#">牛奶</a></li>
+											<li><a href="#">全脂</a></li>
+											<li><a href="#">低脂</a></li>
+											<li><a href="#">饮料</a></li>
+											<li><a href="#">成人奶粉</a></li>
+											<li><a href="#">营养谷物</a></li>
+											<li><a href="#">咖啡</a></li>
+											<li><a href="#">水</a></li>
+											<li><a href="#">碳酸</a></li>
+											<li><a href="#">葡萄酒</a></li>
+											<li><a href="#">啤酒</a></li>
+											<li><a href="#">洋酒</a></li>
+										</ul>
+									</li>
+									<li>
+										<h4><a href="#">家庭清洁</a></h4>
+										<ul>
+											<li><a href="#">洗衣液</a></li>
+											<li><a href="#">洗衣凝珠</a></li>
+											<li><a href="#">洗衣粉</a></li>
+											<li><a href="#">洗洁精</a></li>
+											<li><a href="#">空气清新</a></li>
+											<li><a href="#">油污净</a></li>
+											<li><a href="#">多用途清洁剂</a></li>
+											<li><a href="#">马桶清洁</a></li>
+											<li><a href="#">卫浴清洁剂</a></li>
+										</ul>
+									</li>
+									<li class="te">
+										<h4 class="te"><a href="#">进口母婴</a></h4>
+										<ul class="te">
+											<li><a href="#">奶粉</a></li>
+											<li><a href="#">副食</a></li>
+											<li><a href="#">纸尿裤</a></li>
+											<li><a href="#">奶瓶奶嘴</a></li>
+											<li><a href="#">水杯餐具</a></li>
+											<li><a href="#">洗发沐浴</a></li>
+											<li><a href="#">宝宝护肤</a></li>
+											<li><a href="#">口腔清洁</a></li>
+											<li><a href="#">手推车</a></li>
+											<li><a href="#">安全座椅</a></li>
+											<li><a href="#">玩具</a></li>
+										</ul>
+									</li>
+									<li>
+										<h4><a href="#">品质家居</a></h4>
+										<ul>
+											<li><a href="#">吸尘器</a></li>
+											<li><a href="#">咖啡机</a></li>
+											<li><a href="#">保温杯</a></li>
+											<li><a href="#">榨汁机</a></li>
+											<li><a href="#">滤水壶</a></li>
+											<li><a href="#">锅具</a></li>
+											<li><a href="#">刀具</a></li>
+											<li><a href="#">乳胶枕</a></li>
+										</ul>
+									</li>
+									<li>
+										<h4><a href="#">鞋靴箱包</a></h4>
+										<ul>
+											<li><a href="#">GUCCI</a></li>
+											<li><a href="#">COACH</a></li>
+											<li><a href="#">MK</a></li>
+											<li><a href="#">MCM</a></li>
+											<li><a href="#">KENZO</a></li>
+											<li><a href="#">FURLA</a></li>
+											<li><a href="#">LONGCHAMP</a></li>
+											
+										</ul>
+									</li>
+									<li>
+										<h4><a href="#">腕表饰品</a></h4>
+										<ul>
+											<li><a href="#">雷朋</a></li>
+											<li><a href="#">citizen</a></li>
+											<li><a href="#">Pandora</a></li>
+											<li><a href="#">DW</a></li>
+											<li><a href="#">CASOI</a></li>
+											<li><a href="#">施华洛世奇</a></li>
+										</ul>
+									</li>
+								</ul>-->
+								
+							</div>
+						</li>
+							
+						<li id="navbot2">
+							<div>
+								<a href="#">生鲜食品</a>
+							</div>
+							<div id="navbot2_list">	
+								
+							</div>
+						</li>
+						<li id="navbot3">
+							<div>
+								<a href="#">食品粮油</a><a href="#">酒水冲饮</a>
+							</div>
+							<div id="navbot3_list">	
+								
+							</div>
+						</li>
+						<li id="navbot4">
+							<div>
+								<a href="#">美容护理</a>
+							</div>
+							<div id="navbot4_list">	
+								
+							</div>
+						</li>
+						<li id="navbot5">
+							<div>
+								<a href="#">餐厨用具</a><a href="#">家居家装</a>
+							</div>
+							<div id="navbot5_list">		
+								
+							</div>
+						</li>
+						<li id="navbot6">
+							<div>
+								<a href="#">母婴玩具</a>
+							</div>
+							<div id="navbot6_list">	
+								
+								
+							</div>
+						</li>
+						<li id="navbot7">
+							<div>
+								<a href="#">家清  纸品  一次性</a>
+							</div>
+							<div id="navbot7_list">
+								
+							</div>
+						</li>
+						<li id="navbot8">
+							<div>
+								<a href="#">女装男装</a>
+							</div>
+							<div id="navbot8_list">
+								
+							</div>
+						</li>
+						<li id="navbot9">
+							<div>
+								<a href="#">鞋靴箱包</a><a href="#">珠宝饰品</a>
+							</div>
+							<div id="navbot9_list">
+								
+							</div>
+						</li>
+						<li id="navbot10">
+							<div>
+								<a href="#">手机数码</a><a href="#">电脑办公</a>
+							</div>
+							<div id="navbot10_list">	
+								
+							</div>
+						</li>
+						<li id="navbot11">
+							<div>
+								<a href="#">家用电器</a>
+							</div>
+							<div id="navbot11_list">	
+								
+							</div>
+						</li>
+						<li id="navbot12">
+							<div>
+								<a href="#">运动户外</a><a href="#">汽车用品</a>
+							</div>
+							<div id="navbot12_list">	
+								
+							</div>
+						</li>
+						<li id="navbot13">
+							<div>
+								<a href="#">营养保健</a><a href="#">第一医药</a>
+							</div>
+							<div id="navbot13_list">	
+								
+							</div>
+						</li>
+						<li id="navbot14">
+							<div>
+								<a href="#">礼品卡</a><a href="#">充值</a><a href="#">图书</a>
+							</div>
+							<div id="navbot14_list">	
+								
+							</div>
+						</li>
+					</ul>
+				</div>
+				<ul class="nav-r">
+					<li><a href="#">生活日用</a></li>
+					<li><a href="#">24H百货</a></li>
+					<li><a href="#">全球购</a></li>
+					<li><a href="#">精品闪购</a></li>
+					<li><a href="#">电器城</a></li>
+					<li><a href="#">奥莱代购</a></li>
+					<li><a href="#">百联卡</a></li>
+					<li><a href="#">百联到家</a></li>
+					<li><a href="#">兜来花</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="content layout">
+			<p>手机数码 > 手机通讯 > 手机 > 苹果(Apple)</p>
+			<div class="msg">
+				<div class="show">
+					<div class="imgbox">
+						
+						
+					</div>
+					<div class="bigbox"></div>
+					<div class="btns"></div>
+					
+				</div>
+				<div class="msg_r">
+					<h4><span>耐克 男鞋 2017秋季Air Zoom气垫透气运动鞋 缓震跑步鞋 831352 001 831352-001 43</span></h4>
+					<p >销  售  价：<span class="price"></span></p>
+					<p>本产品由由供应商提供商品，由百联提供服务</p>
+					<p>包邮,不包括货到付款 </p>
+					<dl>
+						<dt>
+							<span>颜色:</span>
+						</dt>
+						<dd>
+							<ul class="color-list">
+								<li>黑色</li>
+								<li>豹纹色</li>
+								<li>米色</li>
+								<li>蓝色</li>
+								<li>灰色</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<span>尺码:</span>
+						</dt>
+						<dd>
+							<ul class="size-list">
+								<li>22</li>
+								<li>22.5</li>
+								<li>23</li>
+								<li>23.5</li>
+								<li>24</li>
+								<li>24.5</li>
+							</ul>
+						</dd>
+					</dl>
+					<p>购买数量：	
+						<input type="button" name="jian" id="jian" value="-" />
+						<input type="text" name="num" id="num" value="1" />
+						<input type="button" name="jia" id="jia" value="+" />
+					</p>
+					
+					
+					<div class="buy">
+						<input type="button" name="toCar" id="toCar" value="加入购物车" />
+						<input type="button" name="toBuy" id="toBuy" value="立即购买" />
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</body>
+	<script type="text/javascript" src="js/goods/goods.js"></script>
+</html>

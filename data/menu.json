@@ -1,0 +1,145 @@
+[
+	{
+		"title":"美妆护肤",
+		"src":"#",
+		"className":"te",
+		"children": [
+			{"src":"#", "title":"面膜"},
+			{"src":"#", "title":"乳液面霜"},
+			{"src":"#", "title":"化妆水"},
+			{"src":"#", "title":"护肤套装"},
+			{"src":"#", "title":"眼部护理"},
+			{"src":"#", "title":"面膜"},
+			{"src":"#", "title":"美容仪"},
+			{"src":"#", "title":"洁面"},		
+			{"src":"#", "title":"卸妆"},
+			{"src":"#", "title":"彩妆"},
+			{"src":"#", "title":"香水"},
+			{"src":"#", "title":"男士护肤"},
+			{"src":"#", "title":"口红"},
+			{"src":"#", "title":"美妆工具"}
+		]
+	},
+	{
+		"title":"个人护理",
+		"src":"#",
+		"children": [
+			{"src":"#", "title":"洗发水"},
+			{"src":"#", "title":"护发素"},
+			{"src":"#", "title":"沐浴乳"},
+			{"src":"#", "title":"苏口水"},
+			{"src":"#", "title":"牙膏"},
+			{"src":"#", "title":"身体乳"},
+			{"src":"#", "title":"护手霜"},
+			{"src":"#", "title":"身体护理"},		
+			{"src":"#", "title":"卫生巾"}
+		]
+	},
+	{
+		"title":"进口美食",
+		"src":"#",
+		"children": [
+			{"src":"#", "title":"坚果"},
+			{"src":"#", "title":"果干"},
+			{"src":"#", "title":"膨化"},
+			{"src":"#", "title":"糖果"},
+			{"src":"#", "title":"海苔"},
+			{"src":"#", "title":"饼干"},
+			{"src":"#", "title":"曲奇"},
+			{"src":"#", "title":"威化"},		
+			{"src":"#", "title":"橄榄油"},
+			{"src":"#", "title":"泡面"},
+			{"src":"#", "title":"蜂蜜"}
+		]
+	},
+	{
+		"title":"乳品冲饮",
+		"src":"#",
+		"children": [
+			{"src":"#", "title":"牛奶"},
+			{"src":"#", "title":"全脂"},
+			{"src":"#", "title":"低脂"},
+			{"src":"#", "title":"饮料"},
+			{"src":"#", "title":"成人奶粉"},
+			{"src":"#", "title":"营养谷物"},
+			{"src":"#", "title":"咖啡"},
+			{"src":"#", "title":"水"},		
+			{"src":"#", "title":"碳酸"},
+			{"src":"#", "title":"葡萄酒"},
+			{"src":"#", "title":"啤酒"},
+			{"src":"#", "title":"洋酒"}
+		]
+	},
+	{
+		"title":"家庭清洁",
+		"src":"#",
+		"children": [
+			{"src":"#", "title":"洗衣液"},
+			{"src":"#", "title":"洗衣凝住"},
+			{"src":"#", "title":"洗衣粉"},
+			{"src":"#", "title":"洗洁精"},
+			{"src":"#", "title":"空气清新"},
+			{"src":"#", "title":"油污净"},
+			{"src":"#", "title":"多用途清洁剂"},
+			{"src":"#", "title":"马桶清洁"},		
+			{"src":"#", "title":"卫浴清洁剂"}
+		]
+	},
+	{
+		"title":"进口母婴",
+		"className":"te",
+		"src":"#",
+		"children" :[
+			{"src":"#", "title":"奶粉"},
+			{"src":"#", "title":"副食"},
+			{"src":"#", "title":"纸尿裤"},
+			{"src":"#", "title":"奶瓶奶嘴"},
+			{"src":"#", "title":"水杯餐具"},
+			{"src":"#", "title":"洗发沐浴"},
+			{"src":"#", "title":"宝宝护肤"},
+			{"src":"#", "title":"口腔清洁"},		
+			{"src":"#", "title":"手推车"},
+			{"src":"#", "title":"安全座椅"},
+			{"src":"#", "title":"玩具"}
+		]
+	},
+	{
+		"title":"品质家居",
+		"src":"#",
+		"children": [
+			{"src":"#", "title":"吸尘器"},
+			{"src":"#", "title":"咖啡机"},
+			{"src":"#", "title":"保温杯"},
+			{"src":"#", "title":"榨汁机"},
+			{"src":"#", "title":"路水壶"},
+			{"src":"#", "title":"锅具"},
+			{"src":"#", "title":"刀具"},
+			{"src":"#", "title":"乳胶枕"}	
+		]
+	},
+	{
+		"title":"鞋靴箱包",
+		"src":"#",
+		"children": [
+			{"src":"#", "title":"GUCCI"},
+			{"src":"#", "title":"COACH"},
+			{"src":"#", "title":"MK"},
+			{"src":"#", "title":"MCM"},
+			{"src":"#", "title":"KENZO"},
+			{"src":"#", "title":"FURLA"},
+			{"src":"#", "title":"LONGCHAMP"}
+		]
+	},
+	{
+		"title":"腕表饰品",
+		"src":"#",
+		"children": [
+			{"src":"#", "title":"雷朋"},
+			{"src":"#", "title":"citizen"},
+			{"src":"#", "title":"Pandora"},
+			{"src":"#", "title":"DW"},
+			{"src":"#", "title":"CASOI"},
+			{"src":"#", "title":"施华洛世奇"}
+		]
+	}
+]
